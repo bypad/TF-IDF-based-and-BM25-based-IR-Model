@@ -1,5 +1,7 @@
 # TF-IDF-based-and-BM25-based-IR-Model
 
+CONTEXT: This is a portfolio of work completed on basic natural language processing (NLP) and information retrieval (IR). I use a small document collection RCV1v2 to design Python code for three questions: parsing of documents and queries, and two IR models (a tf*idf-based IR model and a BM25-based IR model).
+
 QUESTION 1:
 - Define a document parsing function parse_rcv1v2(stop_words, inputpath) to parse a data collection (e.g., RCV1v2 dataset), where parameter stop_words is a list of common English words (use the file 'common-english-words.txt' to find all stop words), and parameter inputpath is the folder that stores a set of XML files
 - Define a query parsing function parse_query(query0, stop_words), where we assume the original query is a simple sentence or a title in a String format (query0), and stop_words is a list of stop words get from 'common-english-words.txt'
